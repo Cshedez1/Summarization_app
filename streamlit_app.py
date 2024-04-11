@@ -28,8 +28,7 @@ txt_input = st.text_area('Enter your text', '', height=200)
 # Form to accept user's text input for summarization
 result = []
 with st.form('summarize_form', clear_on_submit=True):
- openai_api_key = st.text_input('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', type = 'password', disabled=not
-txt_input)
+ openai_api_key = st.text_input('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', type = 'password', disabled=not txt_input)
  submitted = st.form_submit_button('Submit')
  if submitted and openai_api_key.startswith('sk-'):
   with st.spinner('Calculating...'):
@@ -71,8 +70,7 @@ txt_input = st.text_area('Enter your text', '', height=200)
 # Form to accept user's text input for summarization
 result = []
 with st.form('summarize_form', clear_on_submit=True):
- openai_api_key = st.text_input('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', type = 'password', disabled=not
-txt_input)
+ openai_api_key = st.text_input('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', type = 'password', disabled=not txt_input)
  submitted = st.form_submit_button('Submit')
  if submitted and openai_api_key.startswith('sk-'):
   with st.spinner('Calculating...'):
@@ -81,4 +79,4 @@ txt_input)
    del openai_api_key
       
 if len(result):
- st.info(response)
+ st.info(result)
