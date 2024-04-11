@@ -1,7 +1,3 @@
-pip install streamlit
-
-pip install streamlit langchain openai tiktoken
-
 import streamlit as st
 from langchain import OpenAI
 from langchain.docstore.document import Document
