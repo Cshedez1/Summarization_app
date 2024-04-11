@@ -18,8 +18,8 @@ def generate_response(txt):
 
 
 # Page title
-st.set_page_config(page_title='🦜🦜 Text Summarization App')
-st.title('🦜🦜 Text Summarization App')
+st.set_page_config(page_title='🔗 Text Summarization App🔗')
+st.title('🔗Text Summarization App🔗')
 
 
 # Text input
